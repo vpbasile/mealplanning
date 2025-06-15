@@ -1,0 +1,111 @@
+meal_planning_heuristics:
+    exclusions:
+    description: "These foods should never be included in meal suggestions or recipes."
+    ingredients:
+      - salmon
+      - fish
+      - shellfish
+      - seafood
+      - anchovy
+      - tuna
+      - mackerel
+      - sardine
+      - shrimp
+      - crab
+      - octopus
+      - squid
+      - seaweed
+      - chard
+      - fennel
+  fiber_focus:
+    description: "At least three meals/week include a fiber-rich whole food."
+    examples:
+      - kimchi
+      - carrot
+      - cucumber
+      - sweet potato
+      - broccoli
+      - Brussels sprouts
+      - kale
+      - cabbage
+  nuts_seeds:
+    description: "Include nuts or seeds at least once/week."
+    examples:
+      - walnuts
+      - pecans
+      - almonds
+      - cashews
+      - pistachios
+      - chia seeds
+  protein_variety:
+    description: "Use at least three different protein sources/week."
+    favorites:
+      - eggs
+      - chicken
+      - tofu
+      - lentils
+    others:
+      - pork
+      - beef
+  fermented_foods:
+    description: "Include probiotic-rich foods at least twice/week."
+    examples:
+      - yogurt
+      - kefir
+      - kimchi
+      - tempeh
+      - miso
+      - buttermilk
+      - pickled foods
+      - certain cheeses:
+         - cheddar
+         - Swiss
+         - provolone
+         - cottage cheese
+         - gouda
+         - mozzarella
+  prebiotic_foods:
+    description: "Include prebiotic-rich foods when possible."
+    examples:
+      - garlic
+      - onions
+      - apples
+      - pears
+      - apricots
+      - leeks
+      - asparagus
+      - wheat bran
+      - legumes/pulses (beans, chickpeas, lentils)
+      - oats
+      - chicory tea
+  whole_grains:
+    description: "Use whole grains whenever possible, at least two meals/week."
+    examples:
+      - brown rice
+      - quinoa
+      - oats
+  leafy_greens:
+    description: "Include dark leafy greens at least once/week."
+    examples:
+      - kale
+      - spinach
+      - collard greens
+  healthy_fats:
+    description: "Include a healthy-fat source at least once/day."
+    examples:
+      - avocado
+      - olive oil
+      - nuts
+      - nut butters
+  pulses_legumes:
+    description: "Include beans, lentils, or chickpeas at least once/week."
+  meal_satisfaction:
+    description: "Ensure each meal balances protein, fiber, and healthy fat for satiety."
+  ease_of_preparation:
+    description: "Prioritize simple, easy-to-prepare meals, especially familiar recipes."
+  portion_guidelines:
+    description: "Aim for per-serving proportions: ½ plate vegetables, ¼ plate starch, ¼ plate protein/fat, plus seasoning."
+  my favorite dishes include:
+    peanut butter oatmeal
+    chana masla
+    chicken katsu
