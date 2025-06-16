@@ -1,0 +1,47 @@
+{
+  "title": "Recipe",
+  "type": "object",
+  "required": [
+    "title",
+    "subtitle",
+    "sections"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The name of the recipe in title case."
+    },
+    "subtitle": {
+      "type": "string",
+      "description": "A short line with serving suggestions and/or recommended garnishes or toppings."
+    },
+    "sections": {
+      "type": "array",
+      "description": "The recipe divided into labeled sections (e.g., ingredients, prep, marinate, cook).",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "list"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "The title of the section."
+          },
+          "list": {
+            "type": "array",
+            "description": "A list of either ingredients or instructions.",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false
+}
